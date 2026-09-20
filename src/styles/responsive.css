@@ -1,0 +1,711 @@
+@media (max-width: 900px) {
+  .sidebar {
+    width: 190px;
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .home-content {
+    max-width: 700px;
+  }
+
+  .home-visual {
+    min-height: 430px;
+  }
+
+  .profile-card {
+    width: min(300px, 60%);
+  }
+
+  .floating-note {
+    right: 15%;
+  }
+
+  .visual-code {
+    right: 15%;
+  }
+}
+
+@media (max-width: 700px) {
+  .top-bar-actions {
+    display: none;
+  }
+
+  .terminal-title {
+    position: static;
+    transform: none;
+    margin-left: 18px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .editor-tabs {
+    height: 36px;
+  }
+
+  .editor-tab {
+    min-width: 115px;
+  }
+
+  .home-page {
+    padding: 50px 24px 80px;
+  }
+
+  .home-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .home-placeholder {
+    padding: 0;
+  }
+
+  .hero-heading h1 {
+    font-size: clamp(58px, 17vw, 88px);
+  }
+
+  .hero-heading h1 span {
+    margin-left: 25px;
+  }
+
+  .hero-description {
+    font-size: 14px;
+  }
+
+  .hero-meta {
+    gap: 25px;
+    margin-top: 40px;
+  }
+
+  .home-visual {
+    min-height: 390px;
+  }
+
+  .profile-card {
+    width: min(280px, 72%);
+  }
+
+  .floating-note {
+    right: 3%;
+    bottom: 40px;
+  }
+
+  .visual-code {
+    right: 2%;
+    top: 0;
+  }
+
+  .home-scroll {
+    display: none;
+  }
+
+  .status-right {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .window-controls {
+    margin-left: 12px;
+  }
+
+  .window-dot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .terminal-title {
+    margin-left: 12px;
+    font-size: 10px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .primary-button,
+  .secondary-button {
+    justify-content: center;
+  }
+
+  .hero-meta {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .profile-card {
+    width: 78%;
+  }
+
+  .floating-note {
+    right: 0;
+    padding: 9px 11px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .facts-card {
+    max-width: 500px;
+  }
+
+  .about-areas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .about-page {
+    padding: 45px 24px 70px;
+  }
+
+  .about-symbol {
+    display: none;
+  }
+
+  .about-grid {
+    margin-top: 45px;
+    gap: 35px;
+  }
+
+  .code-line {
+    grid-template-columns: 30px 1fr;
+    gap: 12px;
+    padding-left: 10px;
+  }
+
+  .code-line p {
+    font-size: 13px;
+  }
+
+  .qualities {
+    padding-left: 52px;
+  }
+
+  .about-section-heading {
+    margin-top: 65px;
+  }
+
+  .about-areas {
+    grid-template-columns: 1fr;
+  }
+
+  .about-area-card {
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 900px) {
+  .experience-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-side {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .experience-page {
+    padding: 45px 24px 70px;
+  }
+
+  .experience-terminal {
+    display: none;
+  }
+
+  .experience-layout {
+    margin-top: 50px;
+  }
+
+  .experience-top {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .experience-date {
+    align-self: flex-start;
+  }
+
+  .experience-side {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-entry {
+    padding-left: 32px;
+  }
+
+  .work-item div {
+    gap: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .ibm-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .ibm-feature-content {
+    border-left: 0;
+    border-top: 1px solid #30312f;
+  }
+
+  .ibm-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ibm-gallery > div:first-child {
+    grid-column: span 2;
+  }
+
+  .ibm-panel-story {
+    grid-template-columns: 1fr;
+  }
+
+  .ibm-panel-image img {
+    min-height: 400px;
+    max-height: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ibm-header {
+    flex-direction: column;
+  }
+
+  .ibm-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .ibm-gallery > div:first-child {
+    grid-column: auto;
+  }
+
+  .ibm-gallery > div {
+    height: 260px;
+  }
+
+  .ibm-panel-content {
+    padding: 28px;
+  }
+}
+@media (max-width: 700px) {
+  .ibm-certificate {
+    width: calc(100% - 40px);
+    margin-top: 60px;
+  }
+
+  .certificate-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .certificate-frame {
+    padding: 8px;
+  }
+}
+@media (max-width: 700px) {
+  .ibm-publication {
+    width: calc(100% - 40px);
+    grid-template-columns: 1fr;
+    padding: 25px;
+  }
+}
+/* =========================================================
+   SKILLS PAGE — RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1000px) {
+
+  .skills-overview {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skill-stat:nth-child(2) {
+    border-right: none;
+  }
+
+  .skill-stat:nth-child(-n + 2) {
+    border-bottom: 1px solid #292a28;
+  }
+
+  .capability-chart {
+    grid-template-columns: 1fr;
+  }
+
+  .capability-info {
+    border-left: none;
+    border-top: 1px solid #292a28;
+
+    padding: 25px 0 0;
+  }
+
+  .technology-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .technology-item:nth-child(4n) {
+    border-right: 1px solid #292a28;
+  }
+
+  .technology-item:nth-child(3n) {
+    border-right: none;
+  }
+
+  .skill-mapping {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skill-mapping button:nth-child(3n) {
+    border-right: 1px solid #292a28;
+  }
+
+  .skill-mapping button:nth-child(2n) {
+    border-right: none;
+  }
+
+}
+
+
+@media (max-width: 700px) {
+
+  .skills-page {
+    padding: 60px 20px;
+  }
+
+  .skills-title-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .skills-status {
+    margin-top: 10px;
+  }
+
+  .skills-title-row h1 {
+    font-size: clamp(58px, 18vw, 90px);
+  }
+
+  .skills-overview {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-stat {
+    border-right: none;
+    border-bottom: 1px solid #292a28;
+  }
+
+  .skill-stat:last-child {
+    border-bottom: none;
+  }
+
+  .dashboard-heading {
+    padding: 0 16px;
+  }
+
+  .dashboard-meta {
+    display: none;
+  }
+
+  .skill-chart-container {
+    height: 340px;
+    padding: 20px 5px;
+  }
+
+  .selected-skill {
+    margin: 0 16px 20px;
+  }
+
+  .selected-skill-content {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .selected-skill-value {
+    margin-top: 5px;
+  }
+
+  .capability-chart {
+    padding: 30px 20px;
+  }
+
+  .capability-radar {
+    width: 290px;
+  }
+
+  .radar-label {
+    font-size: 8px;
+  }
+
+  .label-right-top {
+    right: -28px;
+  }
+
+  .label-right-bottom {
+    right: -40px;
+  }
+
+  .label-left-bottom {
+    left: -38px;
+  }
+
+  .label-left-top {
+    left: -55px;
+  }
+
+  .technology-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .technology-item:nth-child(3n) {
+    border-right: 1px solid #292a28;
+  }
+
+  .technology-item:nth-child(2n) {
+    border-right: none;
+  }
+
+  .technology-detail {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .skill-mapping {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-mapping button,
+  .skill-mapping button:nth-child(2n),
+  .skill-mapping button:nth-child(3n) {
+    border-right: none;
+  }
+
+  .skills-footer {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+}
+ @media (max-width: 1100px) {
+  .blog-page {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .blog-header {
+    grid-template-columns: 65px minmax(0, 1fr) 80px;
+    gap: 22px;
+  }
+
+  .featured-content {
+    padding: 30px;
+  }
+
+  .blog-list-header,
+  .blog-row {
+    grid-template-columns:
+      45px
+      minmax(0, 1fr)
+      110px
+      70px
+      20px;
+    gap: 14px;
+  }
+}
+
+@media (max-width: 800px) {
+  .blog-page {
+    padding: 55px 5vw 35px;
+  }
+
+  .blog-header {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-bottom: 40px;
+  }
+
+  .section-index {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .blog-heading h1 {
+    font-size: clamp(40px, 10vw, 65px);
+  }
+
+  .blog-count {
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .blog-count strong {
+    font-size: 24px;
+  }
+
+  .featured-post {
+    margin-top: 35px;
+  }
+
+  .featured-content {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding: 25px;
+  }
+
+  .featured-main h2 {
+    font-size: clamp(32px, 8vw, 50px);
+  }
+
+  .featured-meta {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-left: 0;
+  }
+
+  .featured-arrow {
+    margin-left: auto;
+  }
+
+  .blog-controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 18px;
+  }
+
+  .blog-filter-area {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .blog-filter-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobile-filter-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #343530;
+    background: transparent;
+    color: #85877f;
+    cursor: pointer;
+  }
+
+  .blog-filters {
+    display: none;
+  }
+
+  .blog-filters.mobile-visible {
+    display: flex;
+  }
+
+  .blog-search {
+    width: 100%;
+  }
+
+  .blog-list-header {
+    display: none;
+  }
+
+  .blog-row {
+    grid-template-columns: 30px minmax(0, 1fr) 20px;
+    gap: 12px;
+    padding: 22px 5px;
+  }
+
+  .blog-category,
+  .blog-date-wrapper {
+    display: none;
+  }
+
+  .blog-row-content h3 {
+    font-size: 17px;
+  }
+
+  .blog-row-content p {
+    font-size: 10px;
+  }
+
+  .blog-empty {
+    flex-wrap: wrap;
+  }
+
+  .blog-empty button {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .blog-page {
+    padding-top: 45px;
+  }
+
+  .blog-heading h1 {
+    font-size: 39px;
+  }
+
+  .blog-intro {
+    font-size: 12px;
+  }
+
+  .featured-content {
+    padding: 20px;
+  }
+
+  .featured-main h2 {
+    font-size: 33px;
+  }
+
+  .featured-main p {
+    font-size: 12px;
+  }
+
+  .featured-meta {
+    font-size: 8px;
+  }
+
+  .blog-results-meta {
+    font-size: 7px;
+  }
+
+  .blog-row-content h3 {
+    font-size: 16px;
+  }
+
+  .blog-row-content p {
+    font-size: 9px;
+  }
+
+  .blog-footer {
+    flex-direction: column;
+    gap: 7px;
+  }
+}
+
+@media (max-width: 900px) {
+  .creative-header { grid-template-columns: 70px minmax(0, 1fr); }.creative-keywords { display: none; }.creative-story { grid-template-columns: 1fr; gap: 18px; }.creative-process { grid-template-columns: repeat(2, 1fr); }.creative-process-label { grid-column: span 2; border-bottom: 1px solid #292a28; }.creative-process-step:nth-of-type(2) { border-left: 0; }
+}
+
+@media (max-width: 700px) {
+  .creative-page { padding: 48px 20px 35px; }.creative-header { grid-template-columns: 1fr; gap: 18px; padding-bottom: 48px; }.creative-index { flex-direction: row; padding-top: 0; }.creative-heading h1 { font-size: clamp(42px, 13vw, 68px); }.creative-story { margin: 70px 0; }.creative-controls { align-items: flex-start; flex-direction: column; }.creative-controls > div { width: 100%; overflow-x: auto; padding-bottom: 3px; }.creative-filter { white-space: nowrap; }.creative-gallery { display: block; margin-top: 28px; }.creative-card, .creative-card-02, .creative-card-04, .creative-card-06 { margin: 0 0 38px; }.creative-image-button img, .creative-card-01 img, .creative-card-04 img { height: auto; aspect-ratio: 1.15; }.creative-process { margin-top: 75px; }.creative-process-step { min-height: 105px; }.creative-terminal { margin-top: 70px; }.creative-lightbox { padding: 65px 18px 42px; }.creative-lightbox figure img { max-height: calc(100vh - 145px); }.creative-lightbox-nav { bottom: 18px; top: auto; }.creative-lightbox-prev { left: calc(50% - 48px); }.creative-lightbox-next { right: calc(50% - 48px); }.creative-lightbox figcaption { align-items: flex-start; flex-direction: column; gap: 4px; }
+}
+
+@media (max-width: 700px){.mobile-explorer-toggle{display:grid;place-items:center;margin-left:12px}.window-controls{display:none}.top-bar{z-index:30}.sidebar.explorer{position:fixed;z-index:40;top:0;bottom:0;left:0;width:min(290px,86vw);display:flex;transform:translateX(-105%);transition:transform .2s ease;box-shadow:20px 0 50px rgba(0,0,0,.35)}.sidebar.explorer.explorer-open{transform:translateX(0)}.explorer-close{display:grid;place-items:center;margin-left:auto}.explorer-tree{flex:1}.sidebar-bottom{margin-top:auto}}
