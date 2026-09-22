@@ -28,7 +28,7 @@ const projects = [
     ],
     icon: Brain,
     type: "technical",
-    github: "https://github.com/YOUR_USERNAME/leukemia-classification",
+    github: "https://github.com/Akshata-Pandit11",
   },
 
   {
@@ -46,7 +46,7 @@ const projects = [
     ],
     icon: Image,
     type: "technical",
-    github: "https://github.com/YOUR_USERNAME/lake-encroachment-detection",
+    github: "https://github.com/Akshata-Pandit11",
   },
 
   {
@@ -64,7 +64,7 @@ const projects = [
     ],
     icon: Database,
     type: "technical",
-    github: "https://github.com/YOUR_USERNAME/powerbi-datawarehouse",
+    github: "https://github.com/Akshata-Pandit11/Data-Warehouse-system.git",
   },
 
   {
@@ -81,7 +81,7 @@ const projects = [
     ],
     icon: Brain,
     type: "technical",
-    github: "https://github.com/YOUR_USERNAME/depression-classification",
+    github: "https://github.com/Akshata-Pandit11",
   },
 
   {
@@ -98,7 +98,7 @@ const projects = [
     ],
     icon: GitBranch,
     type: "technical",
-    github: "https://github.com/YOUR_USERNAME/market-basket-analysis",
+    github: "https://github.com/Akshata-Pandit11/MARKETBASKETANALYSIS.git"
   },
 
   {
@@ -115,9 +115,57 @@ const projects = [
     ],
     icon: Brain,
     type: "technical",
-    github: "https://github.com/YOUR_USERNAME/alzheimers-fuzzy-inference",
+    github: "https://github.com/Akshata-Pandit11/Akshata_FuzzyMethodsCode.git",
   },
-
+   {
+    id: "07",
+    title: "Lexi-Aid-Legal-Assistant-App",
+    category: "AI / ML",
+    description:
+      "A smart application for legal document analysis.",
+    technologies: [
+      "Python",
+      "NLP",
+      "myPDF",
+      "AI",
+    ],
+    icon: Brain,
+    type: "technical",
+    github: "https://github.com/Akshata-Pandit11/Lexi-Aid-Legal-Assistant-App.git"
+  },
+   {
+    id: "08",
+    title: "Clinical Assistant",
+    category: "AI / ML",
+    description:
+      "A chatbot that assist doctors and other clinic staff",
+    technologies: [
+      "Python",
+      "NLP",
+      "chatbot",
+      "AI",
+    ],
+    icon: Brain,
+    type: "technical",
+    github: "https://github.com/Akshata-Pandit11/Clinical-Assistant.git"
+  },
+{
+    id: "08",
+    title: "[Retrieval-Augmented-Generation-RAG-System](https://github.com/Akshata-Pandit11/3-Retrieval-Augmented-Generation-RAG-System)",
+    category: "AI / ML",
+    description:
+      "A chatbot that assist doctors and other clinic staff",
+    technologies: [
+      "Python",
+      "RAG",
+      "chatbot",
+      "AI",
+    ],
+    icon: Brain,
+    type: "technical",
+    github: "https://github.com/Akshata-Pandit11/Clinical-Assistant.git"
+  },
+  
   {
     id: "07",
     title: "Krishna — Stage Photography",
