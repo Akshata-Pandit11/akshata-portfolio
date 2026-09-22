@@ -54,12 +54,12 @@ function Contact() {
           </p>
 
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:akshatapandit7@gmail.com"
             className="contact-email"
           >
             <Mail size={17} strokeWidth={1.3} />
 
-            <span>your.email@example.com</span>
+            <span>akshatapandit7@gmail.com</span>
 
             <ArrowUpRight
               size={15}
@@ -74,7 +74,7 @@ function Contact() {
           </span>
 
           <a
-            href="#"
+            href="https://www.linkedin.com/in/akshata-pandit-8800591b8"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -89,7 +89,7 @@ function Contact() {
           </a>
 
           <a
-            href="#"
+            href="https://github.com/Akshata-Pandit11"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -104,7 +104,7 @@ function Contact() {
           </a>
 
           <a
-            href="#"
+            href="https://www.instagram.com/akshata_pandith/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -155,7 +155,7 @@ function Contact() {
               <input
                 type="email"
                 name="email"
-                placeholder="you@example.com"
+                placeholder="akshatapandit7@gmail.com"
               />
             </label>
           </div>
