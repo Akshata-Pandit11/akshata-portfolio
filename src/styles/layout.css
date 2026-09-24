@@ -2081,8 +2081,8 @@
 .projects-page {
   min-height: 100vh;
   padding: 70px 0 120px;
-  background: #101111;
-  color: #d8d5ce;
+  background: var(--bg-main);
+  color: var(--text-secondary);
 }
 
 .projects-header {
@@ -2109,7 +2109,7 @@
 .projects-header p {
   max-width: 500px;
   margin-top: 20px;
-  color: #77766f;
+  color: var(--text-secondary);
   font-size: 12px;
   line-height: 1.8;
 }
@@ -2119,8 +2119,8 @@
   align-items: center;
   gap: 9px;
   padding: 9px 12px;
-  border: 1px solid #30312e;
-  color: #666660;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
   font-family: monospace;
   font-size: 8px;
 }
@@ -2139,8 +2139,8 @@
   justify-content: space-between;
   align-items: center;
   gap: 25px;
-  border-top: 1px solid #292a28;
-  border-bottom: 1px solid #292a28;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
 }
 
 .project-filters {
@@ -2153,7 +2153,7 @@
   padding: 8px 11px;
   border: 1px solid transparent;
   background: transparent;
-  color: #66655f;
+  color: var(--text-muted);
   font-family: monospace;
   font-size: 8px;
   cursor: pointer;
@@ -2161,8 +2161,9 @@
 
 .project-filters button:hover,
 .project-filters button.active {
-  border-color: #3d3d38;
-  color: #d0cbc0;
+  border-color: var(--border-bright);
+  background: var(--bg-active);
+  color: var(--text-primary);
 }
 
 .project-search {
@@ -2171,8 +2172,9 @@
   gap: 8px;
   width: 190px;
   padding: 8px 10px;
-  border: 1px solid #30312e;
-  color: #66655f;
+  border: 1px solid var(--border-bright);
+  background: var(--bg-panel);
+  color: var(--text-muted);
 }
 
 .project-search input {
@@ -2180,13 +2182,13 @@
   border: 0;
   outline: 0;
   background: transparent;
-  color: #c9c5bc;
+  color: var(--text-primary);
   font-family: monospace;
   font-size: 8px;
 }
 
 .project-search input::placeholder {
-  color: #55554f;
+  color: var(--text-subtle);
 }
 
 .projects-count {
@@ -2194,14 +2196,14 @@
   margin: 18px auto;
   display: flex;
   gap: 8px;
-  color: #555650;
+  color: var(--text-muted);
   font-family: monospace;
   font-size: 7px;
   letter-spacing: 0.1em;
 }
 
 .projects-count span:first-child {
-  color: #aaa28e;
+  color: var(--accent);
 }
 .projects-grid {
   width: min(1250px, calc(100% - 100px));
@@ -2209,8 +2211,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2px;
-  background: #292a28;
-  border: 1px solid #292a28;
+  background: var(--border);
+  border: 1px solid var(--border);
 }
 
 .project-card {
@@ -2219,13 +2221,13 @@
   padding: 25px;
   display: flex;
   flex-direction: column;
-  background: #141515;
+  background: var(--bg-card);
   overflow: hidden;
   transition: 250ms ease;
 }
 
 .project-card:hover {
-  background: #181918;
+  background: var(--bg-hover);
 }
 
 .project-card-top {
@@ -2243,15 +2245,15 @@
 }
 
 .project-number {
-  color: #aaa28e;
+  color: var(--accent);
 }
 
 .project-category {
-  color: #666660;
+  color: var(--text-muted);
 }
 
 .project-icon {
-  color: #817d70;
+  color: #c7c9c1;
 }
 
 .project-preview {
@@ -2259,8 +2261,8 @@
   height: 230px;
   margin: 25px 0;
   overflow: hidden;
-  border: 1px solid #292a28;
-  background: #111212;
+  border: 1px solid var(--border);
+  background: #171a18;
 }
 
 .preview-grid {
@@ -2268,8 +2270,8 @@
   inset: 0;
   opacity: 0.55;
   background-image:
-    linear-gradient(#272825 1px, transparent 1px),
-    linear-gradient(90deg, #272825 1px, transparent 1px);
+    linear-gradient(#303530 1px, transparent 1px),
+    linear-gradient(90deg, #303530 1px, transparent 1px);
   background-size: 28px 28px;
 }
 
@@ -2279,7 +2281,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #5f5d55;
+  color: #7f857c;
   transition: 300ms ease;
 }
 
@@ -2293,7 +2295,7 @@
 }
 
 .project-card-content h2 {
-  color: #d9d5cd;
+  color: var(--text-primary);
   font-size: 25px;
   font-weight: 400;
   letter-spacing: -0.04em;
@@ -2302,7 +2304,7 @@
 .project-card-content p {
   max-width: 500px;
   margin-top: 12px;
-  color: #77766f;
+  color: #cfd1c9;
   font-size: 10px;
   line-height: 1.8;
 }
@@ -2316,8 +2318,8 @@
 
 .project-tech span {
   padding: 5px 7px;
-  border: 1px solid #30312e;
-  color: #67665f;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
   font-family: monospace;
   font-size: 7px;
 }
@@ -2328,11 +2330,11 @@
   align-items: center;
   margin-top: 30px;
   padding-top: 15px;
-  border-top: 1px solid #292a28;
+  border-top: 1px solid var(--border);
 }
 
 .project-card-footer > span {
-  color: #4f504b;
+  color: var(--text-muted);
   font-family: monospace;
   font-size: 7px;
 }
@@ -2343,7 +2345,7 @@
   gap: 7px;
   border: 0;
   background: transparent;
-  color: #a29d8c;
+  color: #bfc1b9;
   font-family: monospace;
   font-size: 7px;
   cursor: pointer;
@@ -4873,5 +4875,79 @@
 .creative-terminal { max-width: 630px; margin: 110px auto 0; padding: 20px; border: 1px solid #30312e; background: #131414; color: #777871; font: 11px/1.8 monospace; }.creative-terminal span { color: #a9a08b; }.creative-terminal p { margin: 12px 0 0 18px; color: #6e706a; }.creative-footer { display: flex; justify-content: space-between; margin-top: 30px; padding-top: 16px; border-top: 1px solid #292a28; color: #555752; font: 8px monospace; letter-spacing: .12em; }
 .creative-lightbox { position: fixed; z-index: 20; inset: 0; display: grid; place-items: center; padding: 70px 90px; background: rgba(8, 9, 9, .94); }.creative-lightbox figure { max-width: min(100%, 1100px); max-height: 100%; }.creative-lightbox figure img { max-height: calc(100vh - 155px); margin: 0 auto; object-fit: contain; }.creative-lightbox figcaption { display: flex; justify-content: space-between; gap: 20px; padding-top: 12px; color: #a4a39b; font: 10px monospace; }.creative-lightbox figcaption span { color: #777871; }.creative-lightbox-close, .creative-lightbox-nav { position: absolute; display: grid; place-items: center; width: 42px; height: 42px; border: 1px solid #41423d; background: #151615; color: #dedbd3; }.creative-lightbox-close { top: 20px; right: 24px; }.creative-lightbox-prev { left: 24px; }.creative-lightbox-next { right: 24px; }
 
+/* Shared theme surface */
+.app-shell,.editor,.main-content{background:var(--bg-main);color:var(--text-primary)}
+.top-bar,.editor-tabs,.sidebar,.status-bar{background:var(--bg-sidebar);border-color:var(--border)}
+.editor-tab{background:var(--bg-panel);border-color:var(--border);color:var(--text-muted)}
+.editor-tab:hover,.explorer-folder-row:hover,.explorer-files button:hover{background:var(--bg-hover);color:var(--text-primary)}
+.editor-tab.active,.explorer-files button.active{background:var(--bg-active);color:var(--text-primary);border-top-color:var(--accent)}
+.terminal-title,.explorer-tree,.status-bar{color:var(--text-secondary)}
+.terminal-muted,.top-bar-actions,.sidebar-meta,.explorer-availability{color:var(--text-muted)}
+.primary-button{border-color:var(--accent-bright);background:var(--accent-bright);color:var(--bg-main)}
+.secondary-button{border-color:var(--border-bright);color:var(--text-primary)}
+.secondary-button:hover{border-color:var(--accent);background:var(--bg-hover)}
+input,textarea,select{background:var(--bg-card)!important;border-color:var(--border)!important;color:var(--text-primary)!important}
+input::placeholder,textarea::placeholder{color:var(--text-muted)}
+ 
+
 /* IDE explorer */
-.app-shell{background:#0d0e0e}.top-bar,.editor-tabs,.status-bar{background:#0f1010;border-color:#282a27}.sidebar{width:270px;background:#0b0c0c;border-color:#282a27}.editor-tab{font-family:"JetBrains Mono",Consolas,monospace;background:#101111;border-color:#282a27}.editor-tab.active{background:#181918;border-top-color:#a29b88}.explorer-close,.mobile-explorer-toggle{display:none;border:0;background:transparent;color:#92938d}.explorer-tree{padding:10px 8px;overflow-y:auto;font:11px/1.45 "JetBrains Mono",Consolas,monospace;color:#92938d}.explorer-root{display:flex;align-items:center;gap:6px;min-height:27px;color:#c1baa8;font-size:10px}.explorer-src{margin-left:10px;padding-left:10px;border-left:1px solid #20221f}.explorer-folder-row{display:flex;min-height:27px}.explorer-folder-row button,.explorer-files button,.explorer-readme{display:flex;align-items:center;gap:6px;min-height:27px;border:0;background:transparent;color:inherit;font:inherit;text-align:left}.explorer-folder-row button:first-child{width:22px}.explorer-folder-row button:last-child{flex:1}.explorer-folder-row:hover,.explorer-files button:hover{background:#181918;color:#d8d5ce}.explorer-files{margin-left:21px;border-left:1px solid #20221f}.explorer-files button{position:relative;width:100%;padding-left:12px;color:#74766f}.explorer-files button.active{background:#1d1e1c;color:#d8d5ce}.explorer-files button.active:before{position:absolute;left:-1px;top:4px;bottom:4px;width:2px;background:#a29b88;content:""}.explorer-readme{width:100%;margin-top:6px}.explorer-availability{margin-top:10px;color:#666862;font:9px monospace}.explorer-availability i{display:inline-block;width:6px;height:6px;margin-right:6px;border-radius:50%;background:#a29b88}
+.app-shell{background:var(--bg-main)}.top-bar,.editor-tabs,.status-bar{background:var(--bg-sidebar);border-color:var(--border)}.sidebar{background:var(--bg-sidebar);border-color:var(--border)}.editor-tab{background:var(--bg-editor);border-color:var(--border)}.editor-tab.active{background:var(--bg-panel);border-top-color:var(--accent)}.explorer-tree{color:var(--text-secondary)}.explorer-root{color:var(--text-secondary)}.explorer-src,.explorer-files{border-color:var(--border)}.explorer-folder-row:hover,.explorer-files button:hover{background:var(--bg-hover);color:var(--text-primary)}.explorer-files button{color:var(--text-muted)}.explorer-files button.active{background:var(--bg-active);color:var(--text-primary)}
+
+/* Bright charcoal IDE surfaces and readable controls. */
+.main-content,.creative-page{background:var(--bg-main);color:var(--text-primary)}.terminal-title,.terminal-user{color:var(--text-primary)}.terminal-muted,.top-bar-actions,.sidebar-meta,.explorer-availability{color:var(--text-muted)}.card,.project-card,.skill-card,.experience-card,.blog-card,.contact-card,.capability-card,.stat-card,.dashboard-panel,.gallery-panel,.certificate-panel{background:var(--bg-card);border-color:var(--border)}.card:hover,.project-card:hover,.skill-card:hover,.experience-card:hover,.blog-card:hover,.contact-card:hover{background:var(--bg-hover);border-color:var(--border-bright)}.primary-button{background:var(--accent);border-color:var(--accent);color:#171918}.primary-button:hover{background:var(--accent-bright)}.secondary-button{border-color:var(--border-bright);color:var(--text-primary)}.secondary-button:hover{background:var(--bg-hover);border-color:var(--accent)}input,textarea,select{background:var(--bg-panel)!important;border-color:var(--border)!important;color:var(--text-primary)!important}input:focus,textarea:focus,select:focus{border-color:var(--accent)!important}input::placeholder,textarea::placeholder{color:var(--text-subtle)}.creative-lightbox{background:rgba(18,20,19,.96)}.creative-lightbox-close,.creative-lightbox-nav{background:var(--bg-panel);border-color:var(--border-bright);color:var(--text-primary)}
+
+/* Final explorer contract: native buttons must never paint white boxes. */
+.sidebar.explorer{background:#111413;border-right:1px solid #383b37}
+.sidebar.explorer button{appearance:none;-webkit-appearance:none;background:transparent;border:0;border-radius:0;box-shadow:none;color:#d5d3cb;font:13px/1.45 "SFMono-Regular",Consolas,"Liberation Mono",monospace;text-align:left}
+.sidebar.explorer button:hover{background:#292c29;color:#f5f3ec}
+.sidebar.explorer .sidebar-header{border-bottom-color:#343833}
+.sidebar.explorer .sidebar-label{color:#aeb0a8;font:12px/1 monospace;letter-spacing:.15em}
+.sidebar.explorer .explorer-tree{color:#d5d3cb;font:13px/1.45 "SFMono-Regular",Consolas,"Liberation Mono",monospace}
+.sidebar.explorer .explorer-root{color:#d5d3cb;font:13px/1.45 "SFMono-Regular",Consolas,"Liberation Mono",monospace}
+.sidebar.explorer .explorer-root svg,.sidebar.explorer .explorer-files svg{color:#b8b8ae;flex:none}
+.sidebar.explorer .explorer-src,.sidebar.explorer .explorer-files{border-color:#343833}
+.sidebar.explorer .explorer-folder-row button:last-child,.sidebar.explorer .explorer-files button,.sidebar.explorer .explorer-readme{background:transparent;color:#d5d3cb}
+.sidebar.explorer .explorer-folder-row button:last-child:hover,.sidebar.explorer .explorer-files button:hover,.sidebar.explorer .explorer-readme:hover{background:#292c29;color:#f5f3ec}
+.sidebar.explorer .explorer-files button.active{background:#343832;color:#f5f3ec}
+.sidebar.explorer .explorer-files button.active:before{background:#666a61}
+.sidebar.explorer .sidebar-bottom{background:#151817;border-top-color:#30332f}
+.sidebar.explorer .sidebar-folder{color:#d8d6ce}.sidebar.explorer .sidebar-meta{color:#a5a79f}.sidebar.explorer .explorer-availability{color:#a5a79f}
+.top-bar{background:#111312;border-bottom-color:#383b37}.top-bar-actions{color:#d5d3cb}.terminal-title{color:#d5d3cb}.terminal-user{color:#f5f3ec}.terminal-muted{color:#aaaCA5}
+.editor-tabs{background:#1b1e1c;border-bottom-color:#383b37}.editor-tab{background:#191b1a;color:#bfc0b9;border-right-color:#343733}.editor-tab:hover{background:#292c29;color:#f5f3ec}.editor-tab.active{background:#222522;color:#f5f3ec;border-top-color:#d8cfb5}.editor-tab.active svg{color:#bfc0b9}
+.home-page{background:#1b1e1c}.home-grid{min-height:calc(100vh - 150px);align-items:center}.comment{color:#92958e}.line-number{color:#686d66}.hero-intro{color:#aaaCA5}.hero-heading h1{color:#f5f3ec}.hero-heading h1 span{color:#f3e8ca}.hero-role p{color:#d2d0c8}.hero-description{color:#d2d0c8}.meta-label{color:#aaaCA5}.hero-meta span:last-child{color:#b8b9b2}.visual-code{color:#f5f3ec}.visual-code span{color:#b9cbe0}.visual-code strong{color:#f5f3ec}.visual-code em{color:#c5d5b7}.profile-card{max-height:calc(100vh - 225px)}
+.status-bar{background:#111312;border-top-color:#383b37;color:#d5d3cb}
+
+/* Explorer layout and controls */
+.explorer{height:auto;min-height:0;transition:width .2s ease,transform .2s ease}
+.explorer.explorer-closed{width:0;min-width:0;border-right:0;overflow:hidden}
+.explorer-close,.mobile-explorer-toggle{appearance:none;-webkit-appearance:none;display:grid;place-items:center;width:32px;height:32px;padding:0;border:1px solid transparent;border-radius:3px;background:transparent;color:#c8c8c0;line-height:1}
+.explorer-close:hover,.mobile-explorer-toggle:hover{background:#292c29;border-color:#3f433e;color:#f5f3ec}
+.explorer-close{display:grid;margin-left:auto}
+.mobile-explorer-toggle{display:grid;margin-left:14px;flex:none}
+.explorer-folder-row,.explorer-files button,.explorer-readme{min-height:30px;padding-top:5px;padding-bottom:5px}
+.explorer-folder-row button,.explorer-files button,.explorer-readme{gap:8px}
+.explorer-folder-row button:first-child{width:26px;justify-content:center}
+.explorer-folder-row button:last-child{padding-left:2px}
+.explorer-files{margin-left:27px;padding-left:0}
+.explorer-files button{padding-left:14px}
+.explorer-files button svg,.explorer-folder-row button:last-child svg,.explorer-readme svg{width:16px;min-width:16px;height:16px}
+.explorer-tree{padding:12px 10px}.explorer-src{margin-left:12px;padding-left:12px}.explorer-readme{margin-top:8px}
+.explorer-close svg,.mobile-explorer-toggle svg{display:block}
+
+/* Shared high-contrast page system. Page-specific layouts remain unchanged. */
+.about-page,.experience-page,.skills-page,.blog-page,.contact-page{background:var(--bg-main);color:var(--text-secondary)}
+.about-page h1,.about-page h2,.about-page h3,.experience-page h1,.experience-page h2,.experience-page h3,.skills-page h1,.skills-page h2,.skills-page h3,.blog-page h1,.blog-page h2,.blog-page h3,.contact-page h1,.contact-page h2,.contact-page h3,.projects-page h1,.projects-page h2{color:var(--text-primary)}
+.about-page p,.experience-page p,.skills-page p,.blog-page p,.contact-page p{color:var(--text-secondary)}
+.about-page small,.experience-page small,.skills-page small,.blog-page small,.contact-page small,.about-page time,.experience-page time{color:var(--text-muted)}
+.about-skill-card,.about-area-card,.experience-entry,.skill-card,.skill-panel,.skills-card,.blog-card,.blog-featured,.contact-form-section,.contact-email,.contact-links,.certificate-panel{background:var(--bg-card);border-color:var(--border)}
+.about-skill-card:hover,.about-area-card:hover,.experience-entry:hover,.skill-card:hover,.skills-card:hover,.blog-card:hover,.blog-featured:hover{background:var(--bg-hover);border-color:var(--border-bright)}
+.timeline-line,.experience-entry:before{background:var(--border)}
+.about-page svg,.experience-page svg,.skills-page svg,.blog-page svg,.contact-page svg{color:#b8bab2}
+.about-page input,.about-page textarea,.experience-page input,.skills-page input,.blog-page input,.contact-page input,.contact-page textarea{background:var(--bg-panel)!important;border-color:var(--border)!important;color:var(--text-primary)!important}
+.about-page input::placeholder,.about-page textarea::placeholder,.contact-page input::placeholder,.contact-page textarea::placeholder,.blog-page input::placeholder{color:var(--text-subtle)}
+.about-page button,.experience-page button,.skills-page button,.blog-page button,.contact-page button{color:var(--text-primary)}
+.project-open,.publication-link,.contact-links a,.contact-email{color:var(--accent)}
+.project-open:hover,.publication-link:hover,.contact-links a:hover,.contact-email:hover{color:var(--accent-bright)}
+.recharts-wrapper,.recharts-surface{background:var(--bg-panel)}
+.recharts-cartesian-grid line{stroke:var(--border)}.recharts-text{fill:var(--text-secondary)!important}.recharts-default-tooltip{background:var(--bg-card)!important;border:1px solid var(--border-bright)!important;color:var(--text-primary)!important}
+.creative-page .creative-card-meta h3{color:var(--text-primary)}.creative-page .creative-card-meta small,.creative-page .creative-card-meta>span{color:var(--text-muted)}.creative-page .creative-process,.creative-page .creative-terminal{background:var(--bg-card);border-color:var(--border)}

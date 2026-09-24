@@ -3,6 +3,7 @@ import {
   ArrowUpRight,
   Brain,
   Camera,
+  Code2,
   Database,
   GitBranch,
   Image,
@@ -149,8 +150,9 @@ const projects = [
     type: "technical",
     github: "https://github.com/Akshata-Pandit11/Clinical-Assistant.git"
   },
+  
 {
-    id: "08",
+    id: "09",
     title: "[Retrieval-Augmented-Generation-RAG-System](https://github.com/Akshata-Pandit11/3-Retrieval-Augmented-Generation-RAG-System)",
     category: "AI / ML",
     description:
@@ -167,7 +169,7 @@ const projects = [
   },
   
   {
-    id: "07",
+    id: "10",
     title: "Krishna — Stage Photography",
     category: "MEDIA & DESIGN",
     description:
@@ -183,7 +185,7 @@ const projects = [
   },
 
   {
-    id: "08",
+    id: "11",
     title: "Krishna — Flute Performance",
     category: "MEDIA & DESIGN",
     description:
@@ -199,7 +201,7 @@ const projects = [
   },
 
   {
-    id: "09",
+    id: "12",
     title: "Kaane Aagiddare",
     category: "MEDIA & DESIGN",
     description:
@@ -216,7 +218,7 @@ const projects = [
   },
 
   {
-    id: "10",
+    id: "13",
     title: "Ticgetz Campaign",
     category: "MEDIA & DESIGN",
     description:
@@ -229,11 +231,11 @@ const projects = [
     ],
     icon: Image,
     type: "media",
-    image: "/public/images/projects/media/ticgetz.png",
+    image: "/images/projects/media/ticgetz.png",
   },
 
   {
-    id: "11",
+    id: "14",
     title: "Event & Cultural Photography",
     category: "MEDIA & DESIGN",
     description:
@@ -245,11 +247,11 @@ const projects = [
     ],
     icon: Camera,
     type: "media",
-    image: "/public/images/projects/media/event-photography.jpeg",
+    image: "/images/projects/media/event-photography.jpeg",
   },
 
   {
-    id: "12",
+    id: "15",
     title: "GAT Media Team",
     category: "MEDIA & DESIGN",
     description:
@@ -262,11 +264,11 @@ const projects = [
     ],
     icon: Camera,
     type: "media",
-    image: "/public/images/projects/media/gat-media-team.jpeg",
+    image: "/images/projects/media/gat-media-team.jpeg",
   },
 
   {
-    id: "13",
+    id: "16",
     title: "Wildlife Photography",
     category: "MEDIA & DESIGN",
     description:
@@ -279,10 +281,10 @@ const projects = [
     ],
     icon: Camera,
     type: "media",
-    image: "/public/images/projects/media/wildlife.JPG",
+    image: "/images/projects/media/wildlife.JPG",
   },
   {
-    id: "14",
+    id: "17",
     title: "Wildlife Photography",
     category: "MEDIA & DESIGN",
     description:
@@ -295,21 +297,19 @@ const projects = [
     ],
     icon: Camera,
     type: "media",
-    image: "/public/images/projects/media/wildlife2.JPG",
+    image: "/images/projects/media/wildlife2.JPG",
   },
 
-  // Add web projects here later.
-  //
-  // {
-  //   id: "14",
-  //   title: "Your Web Project",
-  //   category: "WEB DEVELOPMENT",
-  //   description: "Your project description.",
-  //   technologies: ["React", "JavaScript", "CSS"],
-  //   icon: Code2,
-  //   type: "technical",
-  //   github: "https://github.com/YOUR_USERNAME/project",
-  // },
+   {
+     id: "18",
+    title: "Github Profile Explorer",
+    category: "WEB DEVELOPMENT",
+    description: "GitHub Profile Explorer is a React application for looking up a public GitHub user and their public repositories. It presents live data from GitHub in a responsive dashboard with client-side repository filtering and sorting.",
+    technologies: ["React", "JavaScript", "CSS"],
+    icon: Code2,
+    type: "technical",
+    github: "https://github.com/Akshata-Pandit11/GitHub-Profile-Explorer.git",
+   },
 ];
 
 const filters = [
@@ -610,26 +610,14 @@ useEffect(() => {
       ) : (
 
         <div className="projects-empty">
+  <span>/projects</span>
 
-          <span>
-            {activeFilter === "WEB DEVELOPMENT"
-              ? "/web-development"
-              : "/projects"}
-          </span>
+  <h2>No projects found.</h2>
 
-          <h2>
-            {activeFilter === "WEB DEVELOPMENT"
-              ? "Web projects coming soon."
-              : "No projects found."}
-          </h2>
-
-          <p>
-            {activeFilter === "WEB DEVELOPMENT"
-              ? "This section will be updated with web projects soon."
-              : "Try another category or search term."}
-          </p>
-
-        </div>
+  <p>
+    Try another category or search term.
+  </p>
+</div>
 
       )}
 

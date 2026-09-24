@@ -40,9 +40,7 @@
     margin-left: 18px;
   }
 
-  .sidebar {
-    display: none;
-  }
+  .sidebar.explorer.explorer-closed { display: flex; }
 
   .editor-tabs {
     height: 36px;
@@ -708,4 +706,4 @@
   .creative-page { padding: 48px 20px 35px; }.creative-header { grid-template-columns: 1fr; gap: 18px; padding-bottom: 48px; }.creative-index { flex-direction: row; padding-top: 0; }.creative-heading h1 { font-size: clamp(42px, 13vw, 68px); }.creative-story { margin: 70px 0; }.creative-controls { align-items: flex-start; flex-direction: column; }.creative-controls > div { width: 100%; overflow-x: auto; padding-bottom: 3px; }.creative-filter { white-space: nowrap; }.creative-gallery { display: block; margin-top: 28px; }.creative-card, .creative-card-02, .creative-card-04, .creative-card-06 { margin: 0 0 38px; }.creative-image-button img, .creative-card-01 img, .creative-card-04 img { height: auto; aspect-ratio: 1.15; }.creative-process { margin-top: 75px; }.creative-process-step { min-height: 105px; }.creative-terminal { margin-top: 70px; }.creative-lightbox { padding: 65px 18px 42px; }.creative-lightbox figure img { max-height: calc(100vh - 145px); }.creative-lightbox-nav { bottom: 18px; top: auto; }.creative-lightbox-prev { left: calc(50% - 48px); }.creative-lightbox-next { right: calc(50% - 48px); }.creative-lightbox figcaption { align-items: flex-start; flex-direction: column; gap: 4px; }
 }
 
-@media (max-width: 700px){.mobile-explorer-toggle{display:grid;place-items:center;margin-left:12px}.window-controls{display:none}.top-bar{z-index:30}.sidebar.explorer{position:fixed;z-index:40;top:0;bottom:0;left:0;width:min(290px,86vw);display:flex;transform:translateX(-105%);transition:transform .2s ease;box-shadow:20px 0 50px rgba(0,0,0,.35)}.sidebar.explorer.explorer-open{transform:translateX(0)}.explorer-close{display:grid;place-items:center;margin-left:auto}.explorer-tree{flex:1}.sidebar-bottom{margin-top:auto}}
+@media (max-width:700px){.mobile-explorer-toggle{display:grid;place-items:center;margin-left:12px}.window-controls{display:none}.top-bar{z-index:30}.sidebar.explorer{position:fixed;z-index:40;top:0;bottom:0;left:0;width:min(290px,86vw);display:flex;transform:translateX(-105%);transition:transform .2s ease;box-shadow:20px 0 50px rgba(0,0,0,.35)}.sidebar.explorer.explorer-open{transform:translateX(0)}.sidebar.explorer.explorer-closed{width:min(290px,86vw);transform:translateX(-105%);border-right:1px solid #383b37}.explorer-close{display:grid;place-items:center;margin-left:auto}.explorer-tree{flex:1}.sidebar-bottom{margin-top:auto;padding:20px}.sidebar-meta{margin-top:10px}.explorer-availability{margin-top:10px}}

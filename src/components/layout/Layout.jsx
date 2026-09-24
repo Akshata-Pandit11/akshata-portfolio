@@ -8,7 +8,7 @@ function Layout({ children }) {
   const [explorerOpen, setExplorerOpen] = useState(false);
   return (
     <div className="app-shell">
-      <TopBar onMenu={() => setExplorerOpen(true)} />
+      <TopBar sidebarOpen={explorerOpen} onMenu={() => setExplorerOpen(true)} />
 
       <div className="workspace">
         <Sidebar isOpen={explorerOpen} onClose={() => setExplorerOpen(false)} />

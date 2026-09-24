@@ -224,7 +224,7 @@ function Experience() {
           <div className="ibm-hero-image">
 
             <img
-              src="/images/experience/ibm/lab.jpg"
+              src="/images/experience/IBM/lab.jpg"
               alt="Team Oasis at IBM India Systems Development Lab"
             />
 
@@ -286,7 +286,7 @@ function Experience() {
 
           <figure>
             <img
-              src="/images/experience/ibm/presentation.jpg"
+              src="/images/experience/IBM/presentation.jpg"
               alt="IBM Z Datathon presentation"
             />
 
@@ -298,7 +298,7 @@ function Experience() {
 
           <figure>
             <img
-              src="/images/experience/ibm/group.jpg"
+              src="/images/experience/IBM/group.jpg"
               alt="IBM Z Datathon participants"
             />
 
@@ -310,7 +310,7 @@ function Experience() {
 
           <figure>
             <img
-              src="/images/experience/ibm/panel.jpeg"
+              src="/images/experience/IBM/panel.jpeg"
               alt="IBM Technical Exchange 2024"
             />
 
@@ -329,7 +329,7 @@ function Experience() {
           <div className="ibm-panel-image">
 
             <img
-              src="/images/experience/ibm/panel-portrait.jpeg"
+              src="/images/experience/IBM/panel-portrait.jpeg"
               alt="Akshata participating in an IBM panel"
             />
 
@@ -413,7 +413,7 @@ function Experience() {
   <div className="certificate-frame">
 
     <img
-      src="/images/experience/ibm/certificate.png"
+      src="/images/experience/IBM/certificate.png"
       alt="Certificate of Achievement for IBM Z Datathon 2024"
     />
 
